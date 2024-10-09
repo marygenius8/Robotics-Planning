@@ -1,0 +1,80 @@
+{
+    "0": {
+        "converge_pipe": "B_to_slave0",
+        "branch_pipes": {
+            "M3": {
+                "flexRatio": 0.3
+            },
+            "B_port": {
+                "flexRatio": 0.3
+            }
+        }
+    },
+    "1": {
+        "converge_pipe": "P1",
+        "branch_pipes": {
+            "M1": {
+                "flexRatio": 0.3
+            },
+            "P_to_slave0": {
+                "flexRatio": 0.3
+            },
+            "P_port": {
+                "flexRatio": 0.3
+            }
+        }
+    },
+    "2": {
+        "converge_pipe": "T_port",
+        "branch_pipes": {
+            "A_to_T": {
+                "flexRatio": 0.3
+            },
+            "T_to_slave0": {
+                "flexRatio": 0.3
+            }
+        }
+    },
+    "3": {
+        "converge_pipe": "A_to_slave0",
+        "branch_pipes": {
+            "A_to_slave1": {
+                "flexRatio": 0.3
+            },
+            "A_to_slave2": {
+                "flexRatio": 0.3
+            }
+        }
+    },
+    "4": {
+        "converge_pipe": "A_port",
+        "branch_pipes": {
+            "slave1_to_Aport": {
+                "flexRatio": 0.3
+            },
+            "slave2_to_Aport": {
+                "flexRatio": 0.3
+            },
+            "slave3_to_Aport": {
+                "flexRatio": 0.3
+            },
+            "A_to_Aport": {
+                "flexRatio": 0.3
+            },
+            "M2": {
+                "flexRatio": 0.3
+            }
+        }
+    },
+    "5": {
+        "converge_pipe": "F_port",
+        "branch_pipes": {
+            "F1": {
+                "flexRatio": 0.3
+            },
+            "F2": {
+                "flexRatio": 0.3
+            }
+        }
+    }
+}

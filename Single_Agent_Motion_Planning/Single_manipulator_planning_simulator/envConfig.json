@@ -1,0 +1,2289 @@
+{
+    "projectDir": "/home/admin123456/Desktop/work/application",
+    "global_params": {
+        "envX": 115.0,
+        "envY": 126.0,
+        "envZ": 125.0,
+        "envScaleX": 40.25,
+        "envScaleY": 44.099999999999994,
+        "envScaleZ": 43.75,
+        "envGridX": 40,
+        "envGridY": 44,
+        "envGridZ": 43,
+        "grid_scale": 0.35
+    },
+    "pipeConfig": {
+        "0": {
+            "M3": {
+                "desc": {
+                    "position": [
+                        55.0,
+                        16.0,
+                        65.0
+                    ],
+                    "direction": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ],
+                    "groupIdx": 0,
+                    "radius": 5.0
+                },
+                "scale_desc": {
+                    "scale_radius": 1.75,
+                    "grid_position": [
+                        19,
+                        6,
+                        23
+                    ],
+                    "scale_position": [
+                        19.25,
+                        5.6,
+                        22.75
+                    ]
+                }
+            },
+            "B_to_slave0": {
+                "desc": {
+                    "position": [
+                        55.0,
+                        54.0,
+                        125.0
+                    ],
+                    "direction": [
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "groupIdx": 0,
+                    "radius": 3.0
+                },
+                "scale_desc": {
+                    "scale_radius": 1.0499999999999998,
+                    "grid_position": [
+                        19,
+                        19,
+                        43
+                    ],
+                    "scale_position": [
+                        19.25,
+                        18.9,
+                        43.75
+                    ]
+                }
+            },
+            "B_port": {
+                "desc": {
+                    "position": [
+                        55.0,
+                        17.0,
+                        2.0
+                    ],
+                    "direction": [
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "groupIdx": 0,
+                    "radius": 5.0
+                },
+                "scale_desc": {
+                    "scale_radius": 1.75,
+                    "grid_position": [
+                        19,
+                        6,
+                        1
+                    ],
+                    "scale_position": [
+                        19.25,
+                        5.949999999999999,
+                        0.7
+                    ]
+                }
+            }
+        },
+        "1": {
+            "P1": {
+                "desc": {
+                    "position": [
+                        27.5,
+                        74.0,
+                        67.0
+                    ],
+                    "direction": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "groupIdx": 1,
+                    "radius": 6.0
+                },
+                "scale_desc": {
+                    "scale_radius": 2.0999999999999996,
+                    "grid_position": [
+                        10,
+                        26,
+                        23
+                    ],
+                    "scale_position": [
+                        9.625,
+                        25.9,
+                        23.45
+                    ]
+                }
+            },
+            "M1": {
+                "desc": {
+                    "position": [
+                        20.0,
+                        67.5,
+                        102.0
+                    ],
+                    "direction": [
+                        -1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "groupIdx": 1,
+                    "radius": 3.0
+                },
+                "scale_desc": {
+                    "scale_radius": 1.0499999999999998,
+                    "grid_position": [
+                        7,
+                        24,
+                        36
+                    ],
+                    "scale_position": [
+                        7.0,
+                        23.625,
+                        35.699999999999996
+                    ]
+                }
+            },
+            "P_to_slave0": {
+                "desc": {
+                    "position": [
+                        63.7,
+                        64.3,
+                        125.0
+                    ],
+                    "direction": [
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "groupIdx": 1,
+                    "radius": 3.0
+                },
+                "scale_desc": {
+                    "scale_radius": 1.0499999999999998,
+                    "grid_position": [
+                        22,
+                        23,
+                        43
+                    ],
+                    "scale_position": [
+                        22.294999999999998,
+                        22.505,
+                        43.75
+                    ]
+                }
+            },
+            "P_port": {
+                "desc": {
+                    "position": [
+                        90.0,
+                        74.0,
+                        67.0
+                    ],
+                    "direction": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "groupIdx": 1,
+                    "radius": 6.0
+                },
+                "scale_desc": {
+                    "scale_radius": 2.0999999999999996,
+                    "grid_position": [
+                        31,
+                        26,
+                        23
+                    ],
+                    "scale_position": [
+                        31.499999999999996,
+                        25.9,
+                        23.45
+                    ]
+                }
+            }
+        },
+        "2": {
+            "T_to_slave0": {
+                "desc": {
+                    "position": [
+                        63.7,
+                        43.7,
+                        125.0
+                    ],
+                    "direction": [
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "groupIdx": 2,
+                    "radius": 3.0
+                },
+                "scale_desc": {
+                    "scale_radius": 1.0499999999999998,
+                    "grid_position": [
+                        22,
+                        15,
+                        43
+                    ],
+                    "scale_position": [
+                        22.294999999999998,
+                        15.295,
+                        43.75
+                    ]
+                }
+            },
+            "A_to_T": {
+                "desc": {
+                    "position": [
+                        35.0,
+                        89.25,
+                        110.0
+                    ],
+                    "direction": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ],
+                    "groupIdx": 2,
+                    "radius": 4.4
+                },
+                "scale_desc": {
+                    "scale_radius": 1.54,
+                    "grid_position": [
+                        12,
+                        31,
+                        38
+                    ],
+                    "scale_position": [
+                        12.25,
+                        31.237499999999997,
+                        38.5
+                    ]
+                }
+            },
+            "T_port": {
+                "desc": {
+                    "position": [
+                        98.0,
+                        42.5,
+                        2.0
+                    ],
+                    "direction": [
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "groupIdx": 2,
+                    "radius": 4.4
+                },
+                "scale_desc": {
+                    "scale_radius": 1.54,
+                    "grid_position": [
+                        34,
+                        15,
+                        1
+                    ],
+                    "scale_position": [
+                        34.3,
+                        14.874999999999998,
+                        0.7
+                    ]
+                }
+            }
+        },
+        "3": {
+            "A_to_slave0": {
+                "desc": {
+                    "position": [
+                        72.5,
+                        54.0,
+                        125.0
+                    ],
+                    "direction": [
+                        0.0,
+                        0.0,
+                        -1.0
+                    ],
+                    "groupIdx": 3,
+                    "radius": 2.5
+                },
+                "scale_desc": {
+                    "scale_radius": 0.875,
+                    "grid_position": [
+                        25,
+                        19,
+                        43
+                    ],
+                    "scale_position": [
+                        25.375,
+                        18.9,
+                        43.75
+                    ]
+                }
+            },
+            "A_to_slave1": {
+                "desc": {
+                    "position": [
+                        95.5,
+                        54.0,
+                        104.0
+                    ],
+                    "direction": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "groupIdx": 3,
+                    "radius": 6.3
+                },
+                "scale_desc": {
+                    "scale_radius": 2.2049999999999996,
+                    "grid_position": [
+                        33,
+                        19,
+                        36
+                    ],
+                    "scale_position": [
+                        33.425,
+                        18.9,
+                        36.4
+                    ]
+                }
+            },
+            "A_to_slave2": {
+                "desc": {
+                    "position": [
+                        75.0,
+                        89.25,
+                        110.0
+                    ],
+                    "direction": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ],
+                    "groupIdx": 3,
+                    "radius": 4.25
+                },
+                "scale_desc": {
+                    "scale_radius": 1.4874999999999998,
+                    "grid_position": [
+                        26,
+                        31,
+                        38
+                    ],
+                    "scale_position": [
+                        26.25,
+                        31.237499999999997,
+                        38.5
+                    ]
+                }
+            }
+        },
+        "4": {
+            "A_port": {
+                "desc": {
+                    "position": [
+                        35.0,
+                        109.0,
+                        2.0
+                    ],
+                    "direction": [
+                        0.0,
+                        0.0,
+                        -1.0
+                    ],
+                    "groupIdx": 4,
+                    "radius": 5.0
+                },
+                "scale_desc": {
+                    "scale_radius": 1.75,
+                    "grid_position": [
+                        12,
+                        38,
+                        1
+                    ],
+                    "scale_position": [
+                        12.25,
+                        38.15,
+                        0.7
+                    ]
+                }
+            },
+            "slave1_to_Aport": {
+                "desc": {
+                    "position": [
+                        100.0,
+                        57.0,
+                        95.25
+                    ],
+                    "direction": [
+                        0.0,
+                        0.0,
+                        -1.0
+                    ],
+                    "groupIdx": 4,
+                    "radius": 3.0
+                },
+                "scale_desc": {
+                    "scale_radius": 1.0499999999999998,
+                    "grid_position": [
+                        35,
+                        20,
+                        33
+                    ],
+                    "scale_position": [
+                        35.0,
+                        19.95,
+                        33.3375
+                    ]
+                }
+            },
+            "slave2_to_Aport": {
+                "desc": {
+                    "position": [
+                        75.5,
+                        98.0,
+                        105.5
+                    ],
+                    "direction": [
+                        0.0,
+                        0.0,
+                        -1.0
+                    ],
+                    "groupIdx": 4,
+                    "radius": 5.5
+                },
+                "scale_desc": {
+                    "scale_radius": 1.9249999999999998,
+                    "grid_position": [
+                        26,
+                        34,
+                        37
+                    ],
+                    "scale_position": [
+                        26.424999999999997,
+                        34.3,
+                        36.925
+                    ]
+                }
+            },
+            "slave3_to_Aport": {
+                "desc": {
+                    "position": [
+                        35.0,
+                        98.0,
+                        105.5
+                    ],
+                    "direction": [
+                        0.0,
+                        0.0,
+                        -1.0
+                    ],
+                    "groupIdx": 4,
+                    "radius": 5.0
+                },
+                "scale_desc": {
+                    "scale_radius": 1.75,
+                    "grid_position": [
+                        12,
+                        34,
+                        37
+                    ],
+                    "scale_position": [
+                        12.25,
+                        34.3,
+                        36.925
+                    ]
+                }
+            },
+            "A_to_Aport": {
+                "desc": {
+                    "position": [
+                        75.5,
+                        19.0,
+                        45.0
+                    ],
+                    "direction": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ],
+                    "groupIdx": 4,
+                    "radius": 5.0
+                },
+                "scale_desc": {
+                    "scale_radius": 1.75,
+                    "grid_position": [
+                        26,
+                        7,
+                        16
+                    ],
+                    "scale_position": [
+                        26.424999999999997,
+                        6.6499999999999995,
+                        15.749999999999998
+                    ]
+                }
+            },
+            "M2": {
+                "desc": {
+                    "position": [
+                        19.0,
+                        33.0,
+                        45.0
+                    ],
+                    "direction": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "groupIdx": 4,
+                    "radius": 2.5
+                },
+                "scale_desc": {
+                    "scale_radius": 0.875,
+                    "grid_position": [
+                        7,
+                        12,
+                        16
+                    ],
+                    "scale_position": [
+                        6.6499999999999995,
+                        11.549999999999999,
+                        15.749999999999998
+                    ]
+                }
+            }
+        },
+        "5": {
+            "F1": {
+                "desc": {
+                    "position": [
+                        20.0,
+                        63.5,
+                        30.0
+                    ],
+                    "direction": [
+                        -1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "groupIdx": 5,
+                    "radius": 2.5
+                },
+                "scale_desc": {
+                    "scale_radius": 0.875,
+                    "grid_position": [
+                        7,
+                        22,
+                        10
+                    ],
+                    "scale_position": [
+                        7.0,
+                        22.224999999999998,
+                        10.5
+                    ]
+                }
+            },
+            "F2": {
+                "desc": {
+                    "position": [
+                        96.5,
+                        63.5,
+                        30.0
+                    ],
+                    "direction": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "groupIdx": 5,
+                    "radius": 2.5
+                },
+                "scale_desc": {
+                    "scale_radius": 0.875,
+                    "grid_position": [
+                        34,
+                        22,
+                        10
+                    ],
+                    "scale_position": [
+                        33.775,
+                        22.224999999999998,
+                        10.5
+                    ]
+                }
+            },
+            "F_port": {
+                "desc": {
+                    "position": [
+                        55.0,
+                        63.5,
+                        18.4
+                    ],
+                    "direction": [
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "groupIdx": 5,
+                    "radius": 3.0
+                },
+                "scale_desc": {
+                    "scale_radius": 1.0499999999999998,
+                    "grid_position": [
+                        19,
+                        22,
+                        6
+                    ],
+                    "scale_position": [
+                        19.25,
+                        22.224999999999998,
+                        6.4399999999999995
+                    ]
+                }
+            }
+        }
+    },
+    "obstacleConfig": {
+        "support1_head": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    12.0,
+                    12.0,
+                    118.5
+                ],
+                "radius": 10.0,
+                "height": 13.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    4.199999999999999,
+                    4.199999999999999,
+                    41.474999999999994
+                ],
+                "radius": 3.5,
+                "height": 4.55,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "support1_foot": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    12.0,
+                    12.0,
+                    6.5
+                ],
+                "radius": 10.0,
+                "height": 13.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    4.199999999999999,
+                    4.199999999999999,
+                    2.275
+                ],
+                "radius": 3.5,
+                "height": 4.55,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "support1": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    12.0,
+                    12.0,
+                    62.5
+                ],
+                "radius": 6.75,
+                "height": 99.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    4.199999999999999,
+                    4.199999999999999,
+                    21.875
+                ],
+                "radius": 2.3625,
+                "height": 34.65,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "support2": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    103.0,
+                    12.0,
+                    62.5
+                ],
+                "radius": 6.75,
+                "height": 99.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    36.05,
+                    4.199999999999999,
+                    21.875
+                ],
+                "radius": 2.3625,
+                "height": 34.65,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "support3": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    12.0,
+                    114.0,
+                    62.5
+                ],
+                "radius": 6.75,
+                "height": 99.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    4.199999999999999,
+                    39.9,
+                    21.875
+                ],
+                "radius": 2.3625,
+                "height": 34.65,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "support4": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    103.0,
+                    114.0,
+                    62.5
+                ],
+                "radius": 6.75,
+                "height": 99.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    36.05,
+                    39.9,
+                    21.875
+                ],
+                "radius": 2.3625,
+                "height": 34.65,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "support3_head": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    12.0,
+                    114.0,
+                    118.5
+                ],
+                "radius": 10.0,
+                "height": 13.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    4.199999999999999,
+                    39.9,
+                    41.474999999999994
+                ],
+                "radius": 3.5,
+                "height": 4.55,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "support2_head": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    103.0,
+                    12.0,
+                    118.5
+                ],
+                "radius": 10.0,
+                "height": 13.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    36.05,
+                    4.199999999999999,
+                    41.474999999999994
+                ],
+                "radius": 3.5,
+                "height": 4.55,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "support4_head": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    103.0,
+                    114.0,
+                    118.5
+                ],
+                "radius": 10.0,
+                "height": 13.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    36.05,
+                    39.9,
+                    41.474999999999994
+                ],
+                "radius": 3.5,
+                "height": 4.55,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "support2_foot": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    103.0,
+                    12.0,
+                    6.5
+                ],
+                "radius": 10.0,
+                "height": 13.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    36.05,
+                    4.199999999999999,
+                    2.275
+                ],
+                "radius": 3.5,
+                "height": 4.55,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "support3_foot": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    12.0,
+                    114.0,
+                    6.5
+                ],
+                "radius": 10.0,
+                "height": 13.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    4.199999999999999,
+                    39.9,
+                    2.275
+                ],
+                "radius": 3.5,
+                "height": 4.55,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "support4_foot": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    103.0,
+                    114.0,
+                    6.5
+                ],
+                "radius": 10.0,
+                "height": 13.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    36.05,
+                    39.9,
+                    2.275
+                ],
+                "radius": 3.5,
+                "height": 4.55,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "B_port_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    55.0,
+                    17.0,
+                    1.0
+                ],
+                "radius": 9.0,
+                "height": 2.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    19.25,
+                    5.949999999999999,
+                    0.35
+                ],
+                "radius": 3.15,
+                "height": 0.7,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "P1_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    13.8,
+                    74.0,
+                    67.0
+                ],
+                "radius": 9.5,
+                "height": 27.5,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    4.83,
+                    25.9,
+                    23.45
+                ],
+                "radius": 3.3249999999999997,
+                "height": 9.625,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "P1_port_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    102.5,
+                    74.0,
+                    67.0
+                ],
+                "radius": 9.5,
+                "height": 25.0,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    35.875,
+                    25.9,
+                    23.45
+                ],
+                "radius": 3.3249999999999997,
+                "height": 8.75,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "P1_M1_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    10.0,
+                    67.5,
+                    102.0
+                ],
+                "radius": 5.9,
+                "height": 20.0,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    3.5,
+                    23.625,
+                    35.699999999999996
+                ],
+                "radius": 2.065,
+                "height": 7.0,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "T_port_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    98.0,
+                    42.5,
+                    1.0
+                ],
+                "radius": 12.0,
+                "height": 2.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    34.3,
+                    14.874999999999998,
+                    0.35
+                ],
+                "radius": 4.199999999999999,
+                "height": 0.7,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "A_port_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    35.0,
+                    109.0,
+                    1.0
+                ],
+                "radius": 9.0,
+                "height": 2.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    12.25,
+                    38.15,
+                    0.35
+                ],
+                "radius": 3.15,
+                "height": 0.7,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "slave2_to_Aport_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    75.5,
+                    98.0,
+                    115.25
+                ],
+                "radius": 8.75,
+                "height": 19.5,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    26.424999999999997,
+                    34.3,
+                    40.3375
+                ],
+                "radius": 3.0625,
+                "height": 6.824999999999999,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "slave3_to_Aport_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    35.0,
+                    98.0,
+                    115.25
+                ],
+                "radius": 8.75,
+                "height": 19.5,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    12.25,
+                    34.3,
+                    40.3375
+                ],
+                "radius": 3.0625,
+                "height": 6.824999999999999,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "A_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    75.5,
+                    9.5,
+                    45.0
+                ],
+                "radius": 7.6,
+                "height": 19.0,
+                "direction": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    26.424999999999997,
+                    3.3249999999999997,
+                    15.749999999999998
+                ],
+                "radius": 2.6599999999999997,
+                "height": 6.6499999999999995,
+                "direction": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "A_M2_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    9.5,
+                    33.0,
+                    45.0
+                ],
+                "radius": 6.9,
+                "height": 19.0,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    3.3249999999999997,
+                    11.549999999999999,
+                    15.749999999999998
+                ],
+                "radius": 2.415,
+                "height": 6.6499999999999995,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "F_port2_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    55.0,
+                    63.5,
+                    9.0
+                ],
+                "radius": 14.75,
+                "height": 4.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    19.25,
+                    22.224999999999998,
+                    3.15
+                ],
+                "radius": 5.1625,
+                "height": 1.4,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "F_port3_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    55.0,
+                    63.5,
+                    3.5
+                ],
+                "radius": 23.0,
+                "height": 7.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    19.25,
+                    22.224999999999998,
+                    1.2249999999999999
+                ],
+                "radius": 8.049999999999999,
+                "height": 2.4499999999999997,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "screw1": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    44.7,
+                    70.25,
+                    118.0
+                ],
+                "radius": 2.1,
+                "height": 14.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    15.645,
+                    24.5875,
+                    41.3
+                ],
+                "radius": 0.735,
+                "height": 4.8999999999999995,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "screw2": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    44.7,
+                    37.5,
+                    118.0
+                ],
+                "radius": 2.1,
+                "height": 14.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    15.645,
+                    13.125,
+                    41.3
+                ],
+                "radius": 0.735,
+                "height": 4.8999999999999995,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "screw3": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    82.5,
+                    37.5,
+                    118.0
+                ],
+                "radius": 2.1,
+                "height": 14.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    28.874999999999996,
+                    13.125,
+                    41.3
+                ],
+                "radius": 0.735,
+                "height": 4.8999999999999995,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "screw4": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    82.5,
+                    70.25,
+                    118.0
+                ],
+                "radius": 2.1,
+                "height": 14.0,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    28.874999999999996,
+                    24.5875,
+                    41.3
+                ],
+                "radius": 0.735,
+                "height": 4.8999999999999995,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "A_to_slave1_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    105.25,
+                    54.0,
+                    104.0
+                ],
+                "radius": 8.8,
+                "height": 19.5,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    36.8375,
+                    18.9,
+                    36.4
+                ],
+                "radius": 3.08,
+                "height": 6.824999999999999,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "B_M3_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    55.0,
+                    8.0,
+                    65.0
+                ],
+                "radius": 5.9,
+                "height": 16.0,
+                "direction": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    19.25,
+                    2.8,
+                    22.75
+                ],
+                "radius": 2.065,
+                "height": 5.6,
+                "direction": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "F2_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    105.75,
+                    63.5,
+                    30.0
+                ],
+                "radius": 5.9,
+                "height": 18.5,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    37.012499999999996,
+                    22.224999999999998,
+                    10.5
+                ],
+                "radius": 2.065,
+                "height": 6.475,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "F1_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    9.5,
+                    63.5,
+                    30.0
+                ],
+                "radius": 5.9,
+                "height": 19.0,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    3.3249999999999997,
+                    22.224999999999998,
+                    10.5
+                ],
+                "radius": 2.065,
+                "height": 6.6499999999999995,
+                "direction": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "F_port1_Obs": {
+            "shape": "Cylinder",
+            "desc": {
+                "position": [
+                    55.0,
+                    63.5,
+                    14.7
+                ],
+                "radius": 3.57,
+                "height": 7.4,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 2.5,
+                "color": [
+                    0.3333333333333333,
+                    0.3333333333333333,
+                    0.3333333333333333
+                ]
+            },
+            "scale_desc": {
+                "position": [
+                    19.25,
+                    22.224999999999998,
+                    5.145
+                ],
+                "radius": 1.2494999999999998,
+                "height": 2.59,
+                "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shape_reso": 1.09375
+            }
+        },
+        "wall": {
+            "shape": "Box",
+            "desc": {
+                "xmin": 0.0,
+                "xmax": 115.0,
+                "ymin": 0.0,
+                "ymax": 126.0,
+                "zmin": 0.0,
+                "zmax": 125.0,
+                "shape_reso": 2.5,
+                "color": [
+                    0.5,
+                    0.5,
+                    0.0
+                ]
+            },
+            "scale_desc": {
+                "xmin": 0.0,
+                "xmax": 40.25,
+                "ymin": 0.0,
+                "ymax": 44.099999999999994,
+                "zmin": 0.0,
+                "zmax": 43.75,
+                "shape_reso": 1.09375
+            }
+        },
+        "M3_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.9194865594800791,
+                    0.01663639898811098,
+                    0.4173084476370096
+                ],
+                "pipe_name": "M3"
+            }
+        },
+        "B_to_slave0_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.9194865594800791,
+                    0.01663639898811098,
+                    0.4173084476370096
+                ],
+                "pipe_name": "B_to_slave0"
+            }
+        },
+        "B_port_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.9194865594800791,
+                    0.01663639898811098,
+                    0.4173084476370096
+                ],
+                "pipe_name": "B_port"
+            }
+        },
+        "P1_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.21968479283192566,
+                    0.5886084799077932,
+                    0.42419060420272725
+                ],
+                "pipe_name": "P1"
+            }
+        },
+        "M1_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.21968479283192566,
+                    0.5886084799077932,
+                    0.42419060420272725
+                ],
+                "pipe_name": "M1"
+            }
+        },
+        "P_to_slave0_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.21968479283192566,
+                    0.5886084799077932,
+                    0.42419060420272725
+                ],
+                "pipe_name": "P_to_slave0"
+            }
+        },
+        "P_port_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.21968479283192566,
+                    0.5886084799077932,
+                    0.42419060420272725
+                ],
+                "pipe_name": "P_port"
+            }
+        },
+        "T_to_slave0_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.22897410082458947,
+                    0.35512937075676276,
+                    0.27097143517374955
+                ],
+                "pipe_name": "T_to_slave0"
+            }
+        },
+        "A_to_T_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.22897410082458947,
+                    0.35512937075676276,
+                    0.27097143517374955
+                ],
+                "pipe_name": "A_to_T"
+            }
+        },
+        "A_to_slave0_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.9044207494369418,
+                    0.02466340194231953,
+                    0.3662478549113585
+                ],
+                "pipe_name": "A_to_slave0"
+            }
+        },
+        "A_to_slave1_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.9044207494369418,
+                    0.02466340194231953,
+                    0.3662478549113585
+                ],
+                "pipe_name": "A_to_slave1"
+            }
+        },
+        "A_to_slave2_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.9044207494369418,
+                    0.02466340194231953,
+                    0.3662478549113585
+                ],
+                "pipe_name": "A_to_slave2"
+            }
+        },
+        "A_port_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.39170759389966014,
+                    0.16216179004415676,
+                    0.4614409231187959
+                ],
+                "pipe_name": "A_port"
+            }
+        },
+        "slave1_to_Aport_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.39170759389966014,
+                    0.16216179004415676,
+                    0.4614409231187959
+                ],
+                "pipe_name": "slave1_to_Aport"
+            }
+        },
+        "slave2_to_Aport_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.39170759389966014,
+                    0.16216179004415676,
+                    0.4614409231187959
+                ],
+                "pipe_name": "slave2_to_Aport"
+            }
+        },
+        "slave3_to_Aport_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.39170759389966014,
+                    0.16216179004415676,
+                    0.4614409231187959
+                ],
+                "pipe_name": "slave3_to_Aport"
+            }
+        },
+        "A_to_Aport_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.39170759389966014,
+                    0.16216179004415676,
+                    0.4614409231187959
+                ],
+                "pipe_name": "A_to_Aport"
+            }
+        },
+        "M2_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.39170759389966014,
+                    0.16216179004415676,
+                    0.4614409231187959
+                ],
+                "pipe_name": "M2"
+            }
+        },
+        "F1_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.9112338304370012,
+                    0.7897418155033228,
+                    0.16085840376963967
+                ],
+                "pipe_name": "F1"
+            }
+        },
+        "F2_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.9112338304370012,
+                    0.7897418155033228,
+                    0.16085840376963967
+                ],
+                "pipe_name": "F2"
+            }
+        },
+        "F_port_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.9112338304370012,
+                    0.7897418155033228,
+                    0.16085840376963967
+                ],
+                "pipe_name": "F_port"
+            }
+        },
+        "T_port_shell": {
+            "shape": "shell",
+            "desc": {
+                "color": [
+                    0.22897410082458947,
+                    0.35512937075676276,
+                    0.27097143517374955
+                ],
+                "pipe_name": "T_port"
+            }
+        }
+    },
+    "planner_params": {
+        "taskTree": {
+            "0": [
+                {
+                    "name0": "B_port",
+                    "name1": "M3",
+                    "radius": 1.75
+                },
+                {
+                    "name0": "B_to_slave0",
+                    "name1": "M3",
+                    "radius": 1.0499999999999998
+                }
+            ],
+            "1": [
+                {
+                    "name0": "P_port",
+                    "name1": "P1",
+                    "radius": 2.0999999999999996
+                },
+                {
+                    "name0": "M1",
+                    "name1": "P1",
+                    "radius": 1.0499999999999998
+                },
+                {
+                    "name0": "M1",
+                    "name1": "P_to_slave0",
+                    "radius": 1.0499999999999998
+                }
+            ],
+            "2": [
+                {
+                    "name0": "T_port",
+                    "name1": "A_to_T",
+                    "radius": 1.54
+                },
+                {
+                    "name0": "T_to_slave0",
+                    "name1": "A_to_T",
+                    "radius": 1.0499999999999998
+                }
+            ],
+            "3": [
+                {
+                    "name0": "A_to_slave2",
+                    "name1": "A_to_slave1",
+                    "radius": 1.4874999999999998
+                },
+                {
+                    "name0": "A_to_slave0",
+                    "name1": "A_to_slave1",
+                    "radius": 0.875
+                }
+            ],
+            "4": [
+                {
+                    "name0": "slave3_to_Aport",
+                    "name1": "slave2_to_Aport",
+                    "radius": 1.75
+                },
+                {
+                    "name0": "slave3_to_Aport",
+                    "name1": "A_port",
+                    "radius": 1.75
+                },
+                {
+                    "name0": "slave2_to_Aport",
+                    "name1": "A_to_Aport",
+                    "radius": 1.75
+                },
+                {
+                    "name0": "slave1_to_Aport",
+                    "name1": "slave2_to_Aport",
+                    "radius": 1.0499999999999998
+                },
+                {
+                    "name0": "M2",
+                    "name1": "A_to_Aport",
+                    "radius": 0.875
+                }
+            ],
+            "5": [
+                {
+                    "name0": "F1",
+                    "name1": "F_port",
+                    "radius": 0.875
+                },
+                {
+                    "name0": "F_port",
+                    "name1": "F2",
+                    "radius": 0.875
+                }
+            ]
+        }
+    },
+    "obstaclePath": "/home/admin123456/Desktop/work/application/obstacle.csv",
+    "scaleObstaclePath": "/home/admin123456/Desktop/work/application/scale_obstacle.csv"
+}

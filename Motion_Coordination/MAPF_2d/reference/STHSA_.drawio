@@ -1,0 +1,210 @@
+<mxfile host="app.diagrams.net" modified="2024-03-16T06:49:17.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="T7uPUWf4rTE3vwzcto0_" version="23.1.0" type="device">
+  <diagram name="第 1 页" id="Xe1IOD4GD5NP2ZnUFklB">
+    <mxGraphModel dx="2840" dy="1473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0555NYds_soMbnoJeSaw-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-2" target="0555NYds_soMbnoJeSaw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="367" y="153" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-3" value="return sol. path[i]" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="712" y="560" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-5" target="0555NYds_soMbnoJeSaw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-5" value="Root.state=local_start_i;&lt;br&gt;Root.time_step=0; Root.g_val=0; Root.h_val = heuristicValue(start_i); Root.f = Root.g_val + Root.h_val;&lt;br&gt;Open = {Root}" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="312" y="240" width="210" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-9" target="0555NYds_soMbnoJeSaw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-7" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0555NYds_soMbnoJeSaw-6">
+          <mxGeometry x="-0.01" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-9" value="Open is empty?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="365" y="350" width="104" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-11" value="node N := min_f(N&#39; in Open)&lt;br&gt;pop N&lt;br&gt;Open = Open\{N}" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="339" y="450" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-12" value="return NO sol." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="350" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-13" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="348" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-11" target="0555NYds_soMbnoJeSaw-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="575" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-18" target="0555NYds_soMbnoJeSaw-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-17" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0555NYds_soMbnoJeSaw-16">
+          <mxGeometry x="-0.2686" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-18" target="0555NYds_soMbnoJeSaw-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-18" value="N.state is near goal_i?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="550" width="119" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-22" target="0555NYds_soMbnoJeSaw-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="416.9999999999998" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-22" value="for each state_i in States,&amp;nbsp;&lt;br&gt;N&#39;.state = state_i,&lt;br&gt;N&#39;.time_step = N.time_step+1" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="324" y="770" width="186" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-28" target="0555NYds_soMbnoJeSaw-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-26" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0555NYds_soMbnoJeSaw-25">
+          <mxGeometry x="-0.3115" relative="1" as="geometry">
+            <mxPoint y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-47" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0555NYds_soMbnoJeSaw-25">
+          <mxGeometry x="-0.2977" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-28" target="0555NYds_soMbnoJeSaw-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="910" />
+              <mxPoint x="260" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-28" value="check_collision(N&#39;.state,&lt;br&gt;N&#39;.time_step) is empty?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="318" y="880" width="199" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-30" target="0555NYds_soMbnoJeSaw-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-30" value="Open = union(Open, N&#39;)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="1150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-33" target="0555NYds_soMbnoJeSaw-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="418" y="1310" />
+              <mxPoint x="210" y="1310" />
+              <mxPoint x="210" y="788" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="417" y="326" as="targetPoint" />
+            <mxPoint x="490" y="1218" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1270" />
+              <mxPoint x="560" y="1350" />
+              <mxPoint x="130" y="1350" />
+              <mxPoint x="130" y="326" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-33" value="each state in States&lt;br&gt;&amp;nbsp;are checked?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="349.25" y="1240" width="136.5" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-35" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="1270" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-36" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1050" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-37" target="0555NYds_soMbnoJeSaw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-37" value="N_goal =collision_free&lt;br&gt;(generate_traj(N.state, goal_i))" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="521" y="562.5" width="151" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-39" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="472" y="568" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-42" target="0555NYds_soMbnoJeSaw-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-42" value="States = generate_states(N.state)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="324.5" y="670" width="186" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-45" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="888" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-46" target="0555NYds_soMbnoJeSaw-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-46" value="update: N&#39;.state, N&#39;.g_val, N&#39;.h_val, N&#39;.f_val" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="357" y="980" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-50" target="0555NYds_soMbnoJeSaw-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-53" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0555NYds_soMbnoJeSaw-52">
+          <mxGeometry x="-0.1571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-50" target="0555NYds_soMbnoJeSaw-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-50" value="N&#39;.state not in Open?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1050" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-56" target="0555NYds_soMbnoJeSaw-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="632" y="1210" />
+              <mxPoint x="418" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-56" value="update: N&#39;.g_val, N&#39;.f_val" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="571.5" y="1150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-58" target="0555NYds_soMbnoJeSaw-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-62" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0555NYds_soMbnoJeSaw-60">
+          <mxGeometry x="0.075" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0555NYds_soMbnoJeSaw-58" target="0555NYds_soMbnoJeSaw-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="1080" />
+              <mxPoint x="750" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-58" value="N&#39;.g_val &amp;lt; N_inOpen.g_val?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1050" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0555NYds_soMbnoJeSaw-64" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="703" y="1050" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

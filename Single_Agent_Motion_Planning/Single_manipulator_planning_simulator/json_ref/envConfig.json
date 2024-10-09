@@ -1,0 +1,1160 @@
+{
+  "projectDir": "/home/admin123456/Desktop/work/application",
+  "global_params": {
+    "envX": 115.0,
+    "envY": 126.0,
+    "envZ": 125.0,
+    "envScaleX": -1,
+    "envScaleY": -1,
+    "envScaleZ": -1,
+    "envGridX": -1,
+    "envGridY": -1,
+    "envGridZ": -1,
+    "grid_scale": -1
+  },
+  "pipeConfig": {
+    "0": {
+      "M3": {
+        "desc": {
+          "position": [
+            55.0,
+            16.0,
+            65.0
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "groupIdx": 0,
+          "radius": 5.0
+        }
+      },
+      "B_to_slave0": {
+        "desc": {
+          "position": [
+            55.0,
+            54.0,
+            125.0
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "groupIdx": 0,
+          "radius": 3.0
+        }
+      },
+      "B_port": {
+        "desc": {
+          "position": [
+            55.0,
+            17.0,
+            2.0
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "groupIdx": 0,
+          "radius": 5.0
+        }
+      }
+    },
+    "1": {
+      "P1": {
+        "desc": {
+          "position": [
+            27.5,
+            74.0,
+            67.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "groupIdx": 1,
+          "radius": 6.0
+        }
+      },
+      "M1": {
+        "desc": {
+          "position": [
+            20.0,
+            67.5,
+            102.0
+          ],
+          "direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "groupIdx": 1,
+          "radius": 3.0
+        }
+      },
+      "P_to_slave0": {
+        "desc": {
+          "position": [
+            63.7,
+            64.3,
+            125.0
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "groupIdx": 1,
+          "radius": 3.0
+        }
+      },
+      "P_port": {
+        "desc": {
+          "position": [
+            90.0,
+            74.0,
+            67.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "groupIdx": 1,
+          "radius": 6.0
+        }
+      }
+    },
+    "2": {
+      "T_to_slave0": {
+        "desc": {
+          "position": [
+            63.7,
+            43.7,
+            125.0
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "groupIdx": 2,
+          "radius": 3.0
+        }
+      },
+      "T_port": {
+        "desc": {
+          "position": [
+            98.0,
+            42.5,
+            2.0
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "groupIdx": 2,
+          "radius": 7.5
+        }
+      },
+      "A_to_T": {
+        "desc": {
+          "position": [
+            35.0,
+            89.25,
+            110.0
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "groupIdx": 2,
+          "radius": 4.4
+        }
+      }
+    },
+    "3": {
+      "A_to_slave0": {
+        "desc": {
+          "position": [
+            72.5,
+            54.0,
+            125.0
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "groupIdx": 3,
+          "radius": 2.5
+        }
+      },
+      "A_to_slave1": {
+        "desc": {
+          "position": [
+            95.5,
+            54.0,
+            104.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "groupIdx": 3,
+          "radius": 6.3
+        }
+      },
+      "A_to_slave2": {
+        "desc": {
+          "position": [
+            75.0,
+            89.25,
+            110.0
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "groupIdx": 3,
+          "radius": 4.25
+        }
+      }
+    },
+    "4": {
+      "A_port": {
+        "desc": {
+          "position": [
+            35.0,
+            109.0,
+            2.0
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "groupIdx": 4,
+          "radius": 5.0
+        }
+      },
+      "slave1_to_Aport": {
+        "desc": {
+          "position": [
+            100.0,
+            57.0,
+            95.25
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "groupIdx": 4,
+          "radius": 3.0
+        }
+      },
+      "slave2_to_Aport": {
+        "desc": {
+          "position": [
+            75.5,
+            98.0,
+            105.5
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "groupIdx": 4,
+          "radius": 5.5
+        }
+      },
+      "slave3_to_Aport": {
+        "desc": {
+          "position": [
+            35.0,
+            98.0,
+            105.5
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "groupIdx": 4,
+          "radius": 5.0
+        }
+      },
+      "A_to_Aport": {
+        "desc": {
+          "position": [
+            75.5,
+            19.0,
+            45.0
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "groupIdx": 4,
+          "radius": 5.0
+        }
+      },
+      "M2": {
+        "desc": {
+          "position": [
+            19.0,
+            33.0,
+            45.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "groupIdx": 4,
+          "radius": 2.5
+        }
+      }
+    },
+    "5": {
+      "F1": {
+        "desc": {
+          "position": [
+            20.0,
+            63.5,
+            30.0
+          ],
+          "direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "groupIdx": 5,
+          "radius": 2.5
+        }
+      },
+      "F2": {
+        "desc": {
+          "position": [
+            96.5,
+            63.5,
+            30.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "groupIdx": 5,
+          "radius": 2.5
+        }
+      },
+      "F_port": {
+        "desc": {
+          "position": [
+            55.0,
+            63.5,
+            18.4
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "groupIdx": 5,
+          "radius": 3.0
+        }
+      }
+    }
+  },
+  "obstacleConfig": {
+    "support1_head": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          12.0,
+          12.0,
+          118.5
+        ],
+        "radius": 10.0,
+        "height": 13.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "support1_foot": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          12.0,
+          12.0,
+          6.5
+        ],
+        "radius": 10.0,
+        "height": 13.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "support1": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          12.0,
+          12.0,
+          62.5
+        ],
+        "radius": 6.75,
+        "height": 99.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "support2": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          103.0,
+          12.0,
+          62.5
+        ],
+        "radius": 6.75,
+        "height": 99.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "support3": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          12.0,
+          114.0,
+          62.5
+        ],
+        "radius": 6.75,
+        "height": 99.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "support4": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          103.0,
+          114.0,
+          62.5
+        ],
+        "radius": 6.75,
+        "height": 99.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "support3_head": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          12.0,
+          114.0,
+          118.5
+        ],
+        "radius": 10.0,
+        "height": 13.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "support2_head": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          103.0,
+          12.0,
+          118.5
+        ],
+        "radius": 10.0,
+        "height": 13.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "support4_head": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          103.0,
+          114.0,
+          118.5
+        ],
+        "radius": 10.0,
+        "height": 13.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "support2_foot": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          103.0,
+          12.0,
+          6.5
+        ],
+        "radius": 10.0,
+        "height": 13.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "support3_foot": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          12.0,
+          114.0,
+          6.5
+        ],
+        "radius": 10.0,
+        "height": 13.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "support4_foot": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          103.0,
+          114.0,
+          6.5
+        ],
+        "radius": 10.0,
+        "height": 13.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "B_port_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          55.0,
+          17.0,
+          1.0
+        ],
+        "radius": 9.0,
+        "height": 2.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "P1_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          13.8,
+          74.0,
+          67.0
+        ],
+        "radius": 9.5,
+        "height": 27.5,
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "P1_port_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          102.5,
+          74.0,
+          67.0
+        ],
+        "radius": 9.5,
+        "height": 25.0,
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "P1_M1_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          10.0,
+          67.5,
+          102.0
+        ],
+        "radius": 5.9,
+        "height": 20.0,
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "T_port_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          98.0,
+          42.5,
+          1.0
+        ],
+        "radius": 12.0,
+        "height": 2.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "A_port_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          35.0,
+          109.0,
+          1.0
+        ],
+        "radius": 9.0,
+        "height": 2.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "slave2_to_Aport_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          75.5,
+          98.0,
+          115.25
+        ],
+        "radius": 8.75,
+        "height": 19.5,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "slave3_to_Aport_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          35.0,
+          98.0,
+          115.25
+        ],
+        "radius": 8.75,
+        "height": 19.5,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "A_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          75.5,
+          9.5,
+          45.0
+        ],
+        "radius": 7.6,
+        "height": 19.0,
+        "direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "A_M2_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          9.5,
+          33.0,
+          45.0
+        ],
+        "radius": 6.9,
+        "height": 19.0,
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "F_port2_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          55.0,
+          63.5,
+          9.0
+        ],
+        "radius": 14.75,
+        "height": 4.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "F_port3_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          55.0,
+          63.5,
+          3.5
+        ],
+        "radius": 23.0,
+        "height": 7.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "screw1": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          44.7,
+          70.25,
+          118.0
+        ],
+        "radius": 2.1,
+        "height": 14.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "screw2": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          44.7,
+          37.5,
+          118.0
+        ],
+        "radius": 2.1,
+        "height": 14.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "screw3": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          82.5,
+          37.5,
+          118.0
+        ],
+        "radius": 2.1,
+        "height": 14.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "screw4": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          82.5,
+          70.25,
+          118.0
+        ],
+        "radius": 2.1,
+        "height": 14.0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "A_to_slave1_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          105.25,
+          54.0,
+          104.0
+        ],
+        "radius": 8.8,
+        "height": 19.5,
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "B_M3_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          55.0,
+          8.0,
+          65.0
+        ],
+        "radius": 5.9,
+        "height": 16.0,
+        "direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "F2_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          105.75,
+          63.5,
+          30.0
+        ],
+        "radius": 5.9,
+        "height": 18.5,
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "F1_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          9.5,
+          63.5,
+          30.0
+        ],
+        "radius": 5.9,
+        "height": 19.0,
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "F_port1_Obs": {
+      "shape": "Cylinder",
+      "desc": {
+        "position": [
+          55.0,
+          63.5,
+          14.7
+        ],
+        "radius": 3.57,
+        "height": 7.4,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shape_reso": 1.0,
+        "color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      }
+    },
+    "wall": {
+      "shape": "Box",
+      "desc": {
+        "xmin": 0.0,
+        "xmax": 115.0,
+        "ymin": 0.0,
+        "ymax": 126.0,
+        "zmin": 0.0,
+        "zmax": 125.0,
+        "shape_reso": 1.0,
+        "color": [
+          0.5,
+          0.5,
+          0.0
+        ]
+      }
+    }
+  },
+  "obstaclePath": "/home/admin123456/Desktop/work/application/obstacle.csv"
+}

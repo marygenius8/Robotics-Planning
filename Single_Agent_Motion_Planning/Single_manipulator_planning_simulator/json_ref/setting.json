@@ -1,0 +1,20 @@
+{
+    "groupIdx": 1,
+    "startName": "P1",
+    "endName": "M1",
+    "startDire": [
+        1.0,
+        0.0,
+        0.0
+    ],
+    "endDire": [
+        -1.0,
+        0.0,
+        0.0
+    ],
+    "startFlexRatio": 0.0,
+    "endFlexRatio": 0.3,
+    "startRadius": 5.999999999999999,
+    "endRadius": 2.9999999999999996,
+    "path_file": "/home/admin123456/Desktop/work/application/smoother_result/path_2/xyzs.csv"
+}
