@@ -104,3 +104,39 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation
+
+# Function to update the animation frame by frame
+def update(frame):
+    q = path[frame]
+    x_points, y_points, z_points = seven_joint_arm.get_points(q)
+    ax = rrt_star.draw_graph()
+    # Plot current configuration in grey
+    for i, q_temp in enumerate(path[:frame + 1]):
+        x_temp, y_temp, z_temp = seven_joint_arm.get_points(q_temp)
+        ax.plot([x for x in x_temp],
+                [y for y in y_temp],
+                [z for z in z_temp],
+                "o-", color="grey", ms=4, mew=0.5)
+
+    # Plot final configuration in red
+    x_final, y_final, z_final = seven_joint_arm.get_points(path[-1])
+    ax.plot([x for x in x_final],
+            [y for y in y_final],
+            [z for z in z_final],
+            "o-", color="red", ms=5, mew=0.5)
+
+# Initialize plot
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+rrt_star.draw_graph(ax)  # Initial graph
+
+# Create the animation
+ani = FuncAnimation(fig, update, frames=len(path), repeat=False)
+
+# Save the animation as a GIF
+ani.save('robot_arm_motion.gif', writer='pillow', fps=10)
+
+plt.show()

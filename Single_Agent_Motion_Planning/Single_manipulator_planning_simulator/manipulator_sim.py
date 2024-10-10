@@ -1,6 +1,7 @@
 import pybullet as p
 import pybullet_data
 import time
+import numpy as np
 
 class ManipulatorSim:
     def __init__(self, config, bullet, num_joints=6):
@@ -55,7 +56,7 @@ class ManipulatorSim:
                 break
             p.stepSimulation()
             time.sleep(1. / 240.)  # Control the simulation step time
-    
+
     def check_collision(self, other_object_id):
         collisions = p.getClosestPoints(self.robot_id, other_object_id, distance=0.01)
         return bool(collisions)
