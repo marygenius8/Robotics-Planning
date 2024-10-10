@@ -57,10 +57,16 @@ def main():
     timeStep = 1. / 240.  # 240.
     p.setTimeStep(timeStep)
 
-    manipulator = ManipulatorSim(config)  # Initialize the manipulator with the config
-    manipulator.simulate()  # Start the simulation
+    manipulator = ManipulatorSim(config, p)  # Initialize the manipulator with the config
+    # Plan a smooth trajectory
+    trajectory = manipulator.plan_trajectory(config.start_conf, config.target_conf)
 
-    p.setAdditionalSearchPath(pybullet_data.getDataPath())
+    # Run the simulation and move the manipulator along the trajectory
+    manipulator.run_simulation(trajectory)
+
+    # Disconnect PyBullet after simulation
+    p.disconnect()
+
 
 if __name__ == '__main__':
     main()

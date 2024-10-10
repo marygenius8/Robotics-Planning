@@ -1,7 +1,9 @@
 {
     "robot_urdf": "franka_panda/panda.urdf",
-    "start_position": ,
-    "end_position": ,
+    "start_config": [0, -0.5, 0.5, -1, 0.5, 0.5],
+    "goal_config": [0, 0.5, -0.5, 1, -0.5, -0.5],
+    "robot_start_pos": [0,0,0],
+    "robot_start_orientation": [0,0,0,1],
     "projectDir": "/home/admin123456/Desktop/work/application",
     "global_params": {
         "envX": 115.0,
