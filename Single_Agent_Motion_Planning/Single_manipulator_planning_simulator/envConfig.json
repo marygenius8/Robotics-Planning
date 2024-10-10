@@ -1,4 +1,7 @@
 {
+    "robot_urdf": "franka_panda/panda.urdf",
+    "start_position": ,
+    "end_position": ,
     "projectDir": "/home/admin123456/Desktop/work/application",
     "global_params": {
         "envX": 115.0,

@@ -4,16 +4,16 @@ import math
 import util
 from util import move_to_joint_pos, gripper_open, gripper_close
 import yaml, json
-from manipulator import Manipulator
+from manipulator_sim import ManipulatorSim
 
 
 class Config:
     """
-    upaates this class data field with config.yaml properties.
+    upaates this class data field with config.yaml/json properties.
 
     """
-    def __int__(self, conf_file):
-        self.robot =  conf_file
+    def __int__(self, cfg):
+        self.robot_file = cfg['robot_urdf']
 
 class ConfigLoader:
     def __init__(self, file_path, file_type='yaml'):
@@ -42,9 +42,25 @@ def main():
     config_loader = ConfigLoader('envConfig.json')  # Create an instance of the config loader
     config = Config(config_loader.get_config())  # Retrieve the configuration
 
-    manipulator = Manipulator(config)  # Initialize the manipulator with the config
+    # Initialize PyBullet Simulation
+    physics_client = p.connect(p.GUI)
+    p.setAdditionalSearchPath(pybullet_data.getDataPath())  # Load PyBullet data
+
+    target = p.getDebugVisualizerCamera()[11]
+    p.resetDebugVisualizerCamera(
+        cameraDistance=1.1,
+        cameraYaw=90,
+        cameraPitch=-25,
+        cameraTargetPosition=[target[0], target[1], 0.7])
+
+    p.setGravity(0, 0, -9.81)
+    timeStep = 1. / 240.  # 240.
+    p.setTimeStep(timeStep)
+
+    manipulator = ManipulatorSim(config)  # Initialize the manipulator with the config
     manipulator.simulate()  # Start the simulation
 
+    p.setAdditionalSearchPath(pybullet_data.getDataPath())
 
 if __name__ == '__main__':
     main()

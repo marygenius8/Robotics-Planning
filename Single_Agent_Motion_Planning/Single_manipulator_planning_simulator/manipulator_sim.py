@@ -1,7 +1,7 @@
 import pybullet as p
 import pybullet_data
 
-class Manipulator:
+class ManipulatorSim:
     def __init__(self, config):
         self.config = config
         self.init_simulation()
@@ -10,7 +10,7 @@ class Manipulator:
         """Initialize the pybullet simulation environment using configuration parameters."""
         p.connect(p.GUI)
         p.setGravity(0, 0, -9.81)
-        self.robot = p.loadURDF(self.config['robot_urdf'])
+        self.robot = p.loadURDF(self.config.robot_file)
 
     def plan_trajectory(self):
         """Example trajectory planning method."""

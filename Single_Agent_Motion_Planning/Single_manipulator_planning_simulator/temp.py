@@ -1,3 +1,7 @@
+import numpy as np
+import pybullet as p
+import pybullet_data
+import time
 class Manipulator:
     def __init__(self, urdf_file, num_joints=6):
         self.urdf_file = urdf_file
@@ -32,11 +36,6 @@ class Manipulator:
     def check_collision(self):
         collisions = p.getClosestPoints(self.robot_id, other_object_id, distance=0.01)
         return bool(collisions)
-
-import numpy as np
-import pybullet as p
-import pybullet_data
-import time
 
 class Manipulator:
     def __init__(self, urdf_file, num_joints=6):
@@ -84,12 +83,7 @@ class Manipulator:
             time.sleep(1./240.)  # Control the simulation step time
 
 def main():
-    # Initialize PyBullet Simulation
-    physics_client = p.connect(p.GUI)
-    p.setAdditionalSearchPath(pybullet_data.getDataPath())  # Load PyBullet data
 
-    p.setGravity(0, 0, -9.81)
-    p.setTimeStep(1./240.)
 
     # Create a manipulator object
     manipulator = Manipulator(urdf_file="kuka_iiwa/model.urdf")
