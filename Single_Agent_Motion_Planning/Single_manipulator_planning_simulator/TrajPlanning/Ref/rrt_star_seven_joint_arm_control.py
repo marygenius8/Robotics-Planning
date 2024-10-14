@@ -80,7 +80,9 @@ class RRTStar:
         self.goal_node = self.Node(goal)
         self.node_list = []
         if show_animation:
-            self.ax = plt.axes(projection='3d')
+            self.fig = plt.figure()
+            self.ax = self.fig.add_subplot(111, projection='3d')
+            # self.ax = plt.axes(projection='3d')
 
     def planning(self, animation=False, search_until_max_iter=False):
         """
@@ -265,7 +267,7 @@ class RRTStar:
 
     def draw_graph(self, rnd=None):
         plt.cla()
-        self.ax.axis([-1, 1, -1, 1, -1, 1])
+        self.ax.axis([-1, 1, -1, 1])
         self.ax.set_zlim(0, 1)
         self.ax.grid(True)
         for (ox, oy, oz, size) in self.obstacle_list:
@@ -402,16 +404,7 @@ def main():
 
             def update(frame):
                 # Function to update the animation frame by frame
-                q = path[frame]
-                x_points, y_points, z_points = seven_joint_arm.get_points(q)
-                rrt_star.draw_graph(ax)  # Redraw the graph
-                # Plot current configuration in grey
-                for i, q_temp in enumerate(path[:frame + 1]):
-                    x_temp, y_temp, z_temp = seven_joint_arm.get_points(q_temp)
-                    ax.plot([x for x in x_temp],
-                            [y for y in y_temp],
-                            [z for z in z_temp],
-                            "o-", color="grey", ms=4, mew=0.5)
+                # ax = rrt_star.draw_graph()  # Redraw the graph
 
                 # Plot final configuration in red
                 x_final, y_final, z_final = seven_joint_arm.get_points(path[-1])
@@ -420,13 +413,22 @@ def main():
                         [z for z in z_final],
                         "o-", color="red", ms=5, mew=0.5)
 
+                # Plot current configuration in grey
+                for i, q_temp in enumerate(path[:frame + 1]):
+                    x_temp, y_temp, z_temp = seven_joint_arm.get_points(q_temp)
+                    ax.plot([x for x in x_temp],
+                            [y for y in y_temp],
+                            [z for z in z_temp],
+                            "o-", color="grey", ms=4, mew=0.5)
+                    # plt.pause(0.01)
+
             # Initialize plot
-            fig = plt.figure()
-            ax = fig.add_subplot(111, projection='3d')
-            rrt_star.draw_graph(ax)  # Initial graph
+            # fig = plt.figure()
+            # ax = fig.add_subplot(111, projection='3d')
+            ax = rrt_star.draw_graph()  # Initial graph
 
             # Create the animation
-            ani = FuncAnimation(fig, update, frames=len(path), repeat=False)
+            ani = FuncAnimation(rrt_star.fig, update, frames=len(path), repeat=False)
 
             # Save the animation as a GIF
             ani.save('robot_arm_motion.gif', writer='pillow', fps=10)

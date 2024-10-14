@@ -10,7 +10,7 @@ import sys
 import pathlib
 sys.path.append(str(pathlib.Path(__file__).parent.parent))
 
-from n_joint_arm_3d.NLinkArm3d import NLinkArm
+from NLinkArm3d import NLinkArm
 
 show_animation = True
 verbose = False
@@ -265,7 +265,7 @@ class RRTStar:
 
     def draw_graph(self, rnd=None):
         plt.cla()
-        self.ax.axis([-1, 1, -1, 1, -1, 1])
+        self.ax.axis([-1, 1, -1, 1])
         self.ax.set_zlim(0, 1)
         self.ax.grid(True)
         for (ox, oy, oz, size) in self.obstacle_list:
