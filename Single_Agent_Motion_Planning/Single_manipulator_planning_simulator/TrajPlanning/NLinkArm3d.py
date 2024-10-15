@@ -1,6 +1,7 @@
 """
-Class of n-link arm in 3D
-Author: Takayuki Murooka (takayuki5168)
+Reference:
+    Class of n-link arm in 3D
+    Author: Takayuki Murooka (takayuki5168)
 """
 import numpy as np
 import math
@@ -25,7 +26,7 @@ class Link:
         trans = np.array([[ct, -st * ca, st * sa, a * ct],
                           [st, ct * ca, -ct * sa, a * st],
                           [0, sa, ca, d],
-                          [0, 0, 0, 1]])
+                          [0, 0, 0, 1]])    # stardard dh
 
         return trans
 

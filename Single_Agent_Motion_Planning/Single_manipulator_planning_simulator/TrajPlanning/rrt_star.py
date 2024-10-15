@@ -14,7 +14,7 @@ from NLinkArm3d import NLinkArm
 from matplotlib.animation import FuncAnimation
 import cv2
 
-show_animation = True
+show_animation = False
 verbose = False
 
 
@@ -26,11 +26,12 @@ class RobotArm(NLinkArm):
         y_list = []
         z_list = []
 
-        trans = np.identity(4)
-
+        trans = np.identity(4)  # initial no rotation
+        # initial x,y,z position [0,0,0]
         x_list.append(trans[0, 3])
         y_list.append(trans[1, 3])
         z_list.append(trans[2, 3])
+        # continuous multiplication of each link frame trasformation matrix to get the end x,y,z position of each link in obtained transformation matrix
         for i in range(len(self.link_list)):
             trans = np.dot(trans, self.link_list[i].transformation_matrix())
             x_list.append(trans[0, 3])
@@ -47,7 +48,7 @@ class RRTStar:
 
     class Node:
         def __init__(self, x):
-            self.x = x
+            self.x = x      # searched variables/points in configuration/joint space
             self.parent = None
             self.cost = 0.0
 
@@ -61,8 +62,8 @@ class RRTStar:
         """
         Setting Parameter
 
-        start:Start Position [q1,...,qn]
-        goal:Goal Position [q1,...,qn]
+        start:Start Configuration [q1,...,qn]
+        goal:Goal Configuration [q1,...,qn]
         obstacleList:obstacle Positions [[x,y,z,size],...]
         randArea:Random Sampling Area [min,max]
 
@@ -385,25 +386,6 @@ def main():
 
         # Draw final path
         if show_animation:
-            # ax = rrt_star.draw_graph()
-            #
-            # # Plot final configuration
-            # x_points, y_points, z_points = seven_joint_arm.get_points(path[-1])
-            # ax.plot([x for x in x_points],
-            #         [y for y in y_points],
-            #         [z for z in z_points],
-            #         "o-", color="red", ms=5, mew=0.5)
-            #
-            # for i, q in enumerate(path):
-            #     x_points, y_points, z_points = seven_joint_arm.get_points(q)
-            #     ax.plot([x for x in x_points],
-            #             [y for y in y_points],
-            #             [z for z in z_points],
-            #             "o-", color="grey",  ms=4, mew=0.5)
-            #     plt.pause(0.1)
-            #
-            # plt.show()
-
             def update(frame):
                 # Function to update the animation frame by frame
                 # ax = rrt_star.draw_graph()  # Redraw the graph
