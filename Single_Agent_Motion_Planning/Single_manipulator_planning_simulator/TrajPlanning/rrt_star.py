@@ -1,6 +1,7 @@
 """
-RRT* path planner for a seven joint arm
-Author: Mahyar Abdeetedal (mahyaret)
+Reference:
+    RRT* path planner for a seven joint arm
+    Author: Mahyar Abdeetedal (mahyaret)
 """
 import math
 import random
@@ -11,6 +12,7 @@ import pathlib
 sys.path.append(str(pathlib.Path(__file__).parent.parent))
 from NLinkArm3d import NLinkArm
 from matplotlib.animation import FuncAnimation
+import cv2
 
 show_animation = True
 verbose = False
@@ -420,20 +422,35 @@ def main():
                             [y for y in y_temp],
                             [z for z in z_temp],
                             "o-", color="grey", ms=4, mew=0.5)
-                    # plt.pause(0.01)
 
             # Initialize plot
-            # fig = plt.figure()
+            fig = rrt_star.fig
             # ax = fig.add_subplot(111, projection='3d')
             ax = rrt_star.draw_graph()  # Initial graph
 
             # Create the animation
-            ani = FuncAnimation(rrt_star.fig, update, frames=len(path), repeat=False)
+            ani = FuncAnimation(fig, update, frames=len(path), repeat=False)
 
             # Save the animation as a GIF
             ani.save('robot_arm_motion.gif', writer='pillow', fps=10)
 
-            plt.show()
+            out = cv2.VideoWriter('robot_arm_motion.avi', cv2.VideoWriter_fourcc(*'XVID'), 10,
+                                  (640, 480))
+
+            rrt_star.draw_graph()
+            # Create the animation and save frames to video
+            for frame in range(len(path)):
+                update(frame)
+                plt.pause(0.01)
+                # Capture the frame and convert it to an image compatible with OpenCV
+                plt.savefig('temp_frame.png', bbox_inches='tight', pad_inches=0)
+                image = cv2.imread('temp_frame.png')
+                image = cv2.resize(image, (640, 480))  # Resize if necessary
+                out.write(image)  # Write the frame to the video
+
+            # Release the video writer and clean up
+            out.release()
+            plt.close(fig)
 
 
 if __name__ == '__main__':
